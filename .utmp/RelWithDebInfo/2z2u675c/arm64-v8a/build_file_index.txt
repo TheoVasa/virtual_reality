@@ -1,2 +1,0 @@
-C:\Users\Ouden\OneDrive\Documents\PROJETS EPFL\virtual_reality\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
-C:\Users\Ouden\OneDrive\Documents\PROJETS EPFL\virtual_reality\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
