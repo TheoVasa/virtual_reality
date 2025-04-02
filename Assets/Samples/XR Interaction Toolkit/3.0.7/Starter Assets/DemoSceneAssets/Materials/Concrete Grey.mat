@@ -27,11 +27,12 @@ Material:
   m_ValidKeywords:
   - _METALLICSPECGLOSSMAP
   - _NORMALMAP
+  - _RECEIVE_SHADOWS_OFF
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 1999
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses:
@@ -120,7 +121,7 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
-    - _Cutoff: 0.5
+    - _Cutoff: 0.57
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -135,10 +136,10 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueControl: 0
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
+    - _QueueOffset: -1
+    - _ReceiveShadows: 0
     - _Shininess: 0
-    - _Smoothness: 0.1
+    - _Smoothness: 0.58
     - _SmoothnessSource: 0
     - _SmoothnessTextureChannel: 0
     - _SpecSource: 0
@@ -152,11 +153,11 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - _BaseColor: {r: 0.82745105, g: 0.9215687, b: 0.9921569, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BumpOffset: {r: 0, g: 0, b: 0, a: 0}
     - _BumpTiling: {r: 4, g: 2, b: 0, a: 0}
-    - _Color: {r: 0.82745105, g: 0.9215687, b: 0.9921569, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.047169805, g: 0.045612313, b: 0.045612313, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
