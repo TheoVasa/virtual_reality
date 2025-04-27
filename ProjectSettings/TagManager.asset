@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Grab interactable
+  - BecherTrigger
+  - FinalBecherTrigger
   layers:
   - Default
   - TransparentFX
