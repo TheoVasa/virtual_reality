@@ -123,5 +123,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxWobble: 0.001
-  WobbleSpeed: 1
+  WobbleSpeed: 0.2
   Recovery: 1

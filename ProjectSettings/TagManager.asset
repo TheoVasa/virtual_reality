@@ -7,6 +7,11 @@ TagManager:
   - Grab interactable
   - BecherTrigger
   - FinalBecherTrigger
+  - Bot
+  - MetallicBall
+  - Sink
+  - WaterStream
+  - PlayerCollider
   layers:
   - Default
   - TransparentFX
