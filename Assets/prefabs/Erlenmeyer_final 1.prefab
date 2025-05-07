@@ -52,7 +52,7 @@ GameObject:
   - component: {fileID: 7331356815622889463}
   - component: {fileID: 8507273684384492902}
   m_Layer: 0
-  m_Name: Erlenmeyer_final
+  m_Name: Erlenmeyer_final 1
   m_TagString: BecherTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
