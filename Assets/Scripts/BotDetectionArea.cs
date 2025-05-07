@@ -6,6 +6,8 @@ public class BotDetectionArea : MonoBehaviour
     private bool BotColliderisActive; //Boolean to check if the Bot Collider is active or not
 
     // Update is called once per frame
+
+    
     void Update()
     {
         BotColliderisActive = gameObject.activeSelf; //Each frame check if the collider is active or not
