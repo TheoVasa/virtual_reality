@@ -1,0 +1,19 @@
+# ninja log v5
+8	1253	1746642316554474229	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	d8896e2d3140a7ba
+9	1188	1746642316493980765	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	dc4f038ece0c5a69
+10	1294	1746642316387586066	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	72879be9c0b893b6
+9	1164	1746642316355031834	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	537cc0e6140e01bb
+1294	1484	1746642316814117898	/Users/rfuleiha/Desktop/RealityVirtuelle/virtual_reality/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/675k423r/obj/arm64-v8a/libgame.so	e71d27640bb8a633
+10	1052	1746642316337612649	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e926a2a5587944c1
+9	1175	1746642316328127905	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e72881ee906632ae
+8	1262	1746642316333055580	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2240e90f3b818dd4
+9	1216	1746642316326062696	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	bef3a8a8092fe9c6
+4	1461	1747004861349587898	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2240e90f3b818dd4
+5	1726	1747004861341376134	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e72881ee906632ae
+5	1727	1747004861339540029	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	bef3a8a8092fe9c6
+5	1734	1747004861612125152	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	dc4f038ece0c5a69
+4	1786	1747004861389825545	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	537cc0e6140e01bb
+3	1810	1747004861709426144	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	d8896e2d3140a7ba
+6	1820	1747004861445777211	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	72879be9c0b893b6
+6	1829	1747004861354727626	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e926a2a5587944c1
+1829	2032	1747004861993259276	/Users/rfuleiha/Desktop/RealityVirtuelle/virtual_reality/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/675k423r/obj/arm64-v8a/libgame.so	e71d27640bb8a633

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Grab interactable
+  - CableEnd
+  - LimitZone
   layers:
   - Default
   - TransparentFX
@@ -13,6 +15,7 @@ TagManager:
   - Water
   - UI
   - ceiling
+  - wire
   - 
   - 
   - 
@@ -36,11 +39,13 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - PolySpatial
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: PolySpatialUI
+    uniqueID: 998188067
     locked: 0
   m_RenderingLayers:
   - Default
