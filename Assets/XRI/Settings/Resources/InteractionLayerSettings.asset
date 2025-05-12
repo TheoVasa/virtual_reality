@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 
-  - 
-  - 
-  - 
-  - 
+  - XLR_Male
+  - XLR_s_yellow
+  - XLR_s_green
+  - XLR_s_blue
+  - Final_Key
   - 
   - 
   - 
