@@ -1,0 +1,5 @@
+C:/Users/ID/Desktop/VR Project 2/virtual_reality/.utmp/RelWithDebInfo/1y54x6j2/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/ID/Desktop/VR Project 2/virtual_reality/.utmp/RelWithDebInfo/1y54x6j2/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/ID/Desktop/VR Project 2/virtual_reality/.utmp/RelWithDebInfo/1y54x6j2/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/ID/Desktop/VR Project 2/virtual_reality/.utmp/RelWithDebInfo/1y54x6j2/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/ID/Desktop/VR Project 2/virtual_reality/.utmp/RelWithDebInfo/1y54x6j2/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

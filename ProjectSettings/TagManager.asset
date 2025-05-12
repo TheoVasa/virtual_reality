@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - PaintedPrefab
+  - Grab interactable
+  - BecherTrigger
+  - FinalBecherTrigger
+  - Bot
+  - MetallicBall
+  - Sink
+  - WaterStream
+  - PlayerCollider
   layers:
   - Default
   - TransparentFX
