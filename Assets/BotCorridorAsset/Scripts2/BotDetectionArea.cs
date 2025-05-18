@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BotDetectionArea : MonoBehaviour
 {
@@ -18,10 +19,11 @@ public class BotDetectionArea : MonoBehaviour
     {
         Debug.Log("Tag of other" + other.gameObject.tag);
         //if the player collider enter the bot collider when the box collider is active then GameOver (or start increase stressbar if time to do it)
-        if (other.CompareTag("PlayerCollider") && BotColliderisActive)
+        if (other.CompareTag("Player") && BotColliderisActive)
         {
             Debug.Log("Enter into the Dection area of the Bot");
             Debug.Log("GameOver");
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //reload the scene
         }
     }
 
