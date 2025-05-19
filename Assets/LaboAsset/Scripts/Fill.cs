@@ -71,7 +71,7 @@ public class Fill : MonoBehaviour
     };
 
     private float timeChangeColor = 0f;
-    public float durationChangeColor = 5f; //speed of the change of the color
+    public float durationChangeColor = 10f; //speed of the change of the color
     //Trigger Event booleans
     private bool isTrigger = false; //check that the box collider is trigger with the erlenmeyer
     private bool isTriggerSink = false; //check that the box collider is trigger with the Sink collider
