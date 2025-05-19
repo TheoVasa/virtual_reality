@@ -1,0 +1,8 @@
+/Users/vasarino/Documents/UnityProjects/virtual_reality/.utmp/RelWithDebInfo/1o51r6u2/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/vasarino/Documents/UnityProjects/virtual_reality/.utmp/RelWithDebInfo/1o51r6u2/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/vasarino/Documents/UnityProjects/virtual_reality/.utmp/RelWithDebInfo/1o51r6u2/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/vasarino/Documents/UnityProjects/virtual_reality/.utmp/RelWithDebInfo/1o51r6u2/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/vasarino/Documents/UnityProjects/virtual_reality/.utmp/RelWithDebInfo/1o51r6u2/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+/Users/vasarino/Documents/UnityProjects/virtual_reality/.utmp/RelWithDebInfo/1o51r6u2/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/vasarino/Documents/UnityProjects/virtual_reality/.utmp/RelWithDebInfo/1o51r6u2/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/vasarino/Documents/UnityProjects/virtual_reality/.utmp/RelWithDebInfo/1o51r6u2/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
