@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: deea24067a0f74dd58d1cdb18194ac36
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18972
+  packageName: Flashlight
+  packageVersion: v1.61
+  assetPath: Assets/Flashlight/Materials/FlashlightLensMaterial.mat
+  uploadId: 243072

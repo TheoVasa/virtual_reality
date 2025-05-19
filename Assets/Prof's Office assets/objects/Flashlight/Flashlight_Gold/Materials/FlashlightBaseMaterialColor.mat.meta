@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9abd02d5e940242089cb1a3ab1743341
+timeCreated: 1433016364
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18972
+  packageName: Flashlight
+  packageVersion: v1.61
+  assetPath: Assets/Flashlight/Flashlight_Gold/Materials/FlashlightBaseMaterialColor.mat
+  uploadId: 243072

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fef5a0d474f5b439998367f83f347999
+timeCreated: 1525015194
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18972
+  packageName: Flashlight
+  packageVersion: v1.61
+  assetPath: Assets/Flashlight/Flashlight_Gold/Flashlight.prefab
+  uploadId: 243072

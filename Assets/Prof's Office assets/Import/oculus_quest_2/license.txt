@@ -1,0 +1,11 @@
+Model Information:
+* title:	oculus_quest_2
+* source:	https://sketchfab.com/3d-models/oculus-quest-2-1514f16185284f7ab01a149ebb592332
+* author:	ijraidy (https://sketchfab.com/ijraidy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "oculus_quest_2" (https://sketchfab.com/3d-models/oculus-quest-2-1514f16185284f7ab01a149ebb592332) by ijraidy (https://sketchfab.com/ijraidy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: df41b5f707fbf405ba3ccd83089d52b4
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18972
+  packageName: Flashlight
+  packageVersion: v1.61
+  assetPath: Assets/Flashlight/Model/Spotlight.prefab
+  uploadId: 243072

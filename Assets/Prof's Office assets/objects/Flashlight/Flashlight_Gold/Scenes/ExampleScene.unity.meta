@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c8134b09fbd64ee99386c009fe0e891
+timeCreated: 1433016633
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18972
+  packageName: Flashlight
+  packageVersion: v1.61
+  assetPath: Assets/Flashlight/Flashlight_Gold/Scenes/ExampleScene.unity
+  uploadId: 243072

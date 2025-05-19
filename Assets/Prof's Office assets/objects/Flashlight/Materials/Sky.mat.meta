@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fd11ae9e335884f0dac1f8f94270124d
+timeCreated: 1525014943
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18972
+  packageName: Flashlight
+  packageVersion: v1.61
+  assetPath: Assets/Flashlight/Materials/Sky.mat
+  uploadId: 243072
