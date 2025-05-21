@@ -1,10 +1,10 @@
-# Description of the Project
+# 1. Description of the Project
 Game project using virtual reality
 
 # References:
 
 
-## Produced scripts and assets created by the team:
+## 1.1 Produced scripts and assets created by the team:
 
 ### Tutos room
 ### Climb corridor
@@ -13,7 +13,7 @@ Game project using virtual reality
 ### Bots corridor
 ### Prof's Desk
 
-## Adapted scripts and assets from external sources:
+## 1.2 Adapted scripts and assets from external sources:
 
 ### Tutos room
 ### Climb corridor
@@ -22,7 +22,7 @@ Game project using virtual reality
 ### Bots corridor
 ### Prof's Desk
 
-## Unmodified scripts and assets from external sources:
+## 1.3 Unmodified scripts and assets from external sources:
 
 ### Tutos room
 ### Climb corridor
@@ -31,14 +31,14 @@ Game project using virtual reality
 ### Bots corridor
 ### Prof's Desk
 
-# Custom interactions:
+# 2. Custom interactions:
 
-## Non-movement interaction:
+## 2.1 Non-movement interaction:
 
 ### Potion mix
 ### Interaction 2
 ### Interaction 3
 
-## Movement interaction
+## 2.2 Movement interaction
 
 ### Tyrolien
