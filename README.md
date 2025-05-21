@@ -41,6 +41,7 @@ Game project using virtual reality
 #### Scripts:
 - [Wobble](Assets/LaboAsset/Scripts/Wooble.cs/): Wobble effect of the liquid in the erlenmeyer flask. *This script was used as is from an online tutorial:*: [link](https://youtu.be/tI3USKIbnh0)
 #### Assets:
+- [Classroom and Laboratory assets](Assets/Rayan_assets/Importing%Assets/)
 - [3D Laboratory Environment with Appratus](Assets/LaboAsset/): TODO LINK
 - [Water Texture](Assets/LaboAsset/Textures/): [link](https://youtu.be/_H8gBKGKbnU)
 - [PushButton](Assets/Samples/XR%20Interaction%20Toolkit/3.0.8/Starter%20Assets/DemoSceneAssets/Prefabs/Interactables/Push%20Button.prefab): Push button from the VR demo scene from unity.
