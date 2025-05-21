@@ -15,7 +15,7 @@ public class ShutDownLight : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         //if the ball enter in the collider of the switch then desactivate the spot light and the box collider of the bot
-        if (other.CompareTag("MetallicBall") && BotColliderisActive)
+        if (other.CompareTag("Light_switch") && BotColliderisActive)
         {
             print("Touch the switch");
             print("Desactivate the light and the detection area of the bot");
