@@ -8,7 +8,14 @@ Game project using virtual reality
 
 ### Tutos room
 ### Climb corridor
-### Lab room
+### Lab room:
+####Scripts:
+- [PourDetector](Assets/LaboAsset/Scripts/PourDetector.cs/): If the current object (erlenmyer) is rotated by more than 90° in absolute value, the watering effect is activated, including activation of the water stream.
+- [Fill](Assets/LaboAsset/Scripts/Fill.cs/):  If the collision box of the current object (erlenmeyer_final) comes into contact with the collision box of the water stream of an erlenmeyer of the correct color, the erlenmeyer_final begins to fill and has changed color from the original color of the erlenmeyer_final to the color of the target mixture. If the color of the erlenmeyer in contact is not the one expected, the liquid turns black and black smoke appears. If the water flow collision box of the erlenmeyer_final is in contact with the collision box of the sink, the liquid starts to flow until it is completely emptied. If the colour of the erlenmeyer_final is the right color (dark_green), a green smoke appears with a number 4.
+- [GlassButtoncorrosion](Assets/LaboAsset/Scripts/GlassButtoncorrosion.cs/): If the box collider of the current object (box_glass) is in contact with the box collider of the water stream of the erlenmeyer_final of the correct colour (dark_green), then the box_glass is inactivated.
+#### Assets:
+- [Lab instructions Images UI](<Assets/LaboAsset/Image UI/Labo/>): Images created to help the player
+- [Box Glass](Assets/LaboAsset/Models/box_glass.fbx/): Box with a transparent glass created on Blender used to protect the door opening button.
 ### Server room
 ### Bots corridor
 ### Prof's Desk
@@ -17,7 +24,11 @@ Game project using virtual reality
 
 ### Tutos room
 ### Climb corridor
-### Lab room
+### Lab room:
+#### Assets:
+- [Erlenmeyer](Assets/LaboAsset/prefabs/): Erlenmeyer from [3D Laboratory Environment with Appratus](Assets/LaboAsset/) were modified with Blender to increase the size of the liquid flask to make the wooble effect more realistic
+- [Shader VFX](Assets/LaboAsset/Shader): The Liquid shader material was created following an online tutorial and was adapted to the project: [link](https://youtu.be/tI3USKIbnh0)
+- [Water stream animation](Assets/LaboAsset/prefabs/vfxgraph_AnimateWater.vfx/): The water stream animation was created following an online tutorial and was modified (remove of some 3D models and change of colors) to adapted to the project : [link](https://youtu.be/_H8gBKGKbnU)
 ### Server room
 ### Bots corridor
 ### Prof's Desk
@@ -26,7 +37,13 @@ Game project using virtual reality
 
 ### Tutos room
 ### Climb corridor
-### Lab room
+### Lab room:
+#### Scripts:
+- [Wobble](Assets/LaboAsset/Scripts/Wooble.cs/): Wobble effect of the liquid in the erlenmeyer flask. *This script was used as is from an online tutorial:*: [link](https://youtu.be/tI3USKIbnh0)
+#### Assets:
+- [3D Laboratory Environment with Appratus](Assets/LaboAsset/): TODO LINK
+- [Water Texture](Assets/LaboAsset/Textures/): [link](https://youtu.be/_H8gBKGKbnU)
+- [PushButton](Assets/Samples/XR%20Interaction%20Toolkit/3.0.8/Starter%20Assets/DemoSceneAssets/Prefabs/Interactables/Push%20Button.prefab): Push button from the VR demo scene from unity.
 ### Server room
 ### Bots corridor
 ### Prof's Desk
@@ -41,7 +58,7 @@ Game project using virtual reality
 #### Scripts:
 - [PourDetector](Assets/LaboAsset/Scripts/PourDetector.cs/): If the current object (erlenmyer) is rotated by more than 90° in absolute value, the watering effect is activated, including activation of the water stream.
 - [Fill](Assets/LaboAsset/Scripts/Fill.cs/):  If the collision box of the current object (erlenmeyer_final) comes into contact with the collision box of the water stream of an erlenmeyer of the correct color, the erlenmeyer_final begins to fill and has changed color from the original color of the erlenmeyer_final to the color of the target mixture. If the color of the erlenmeyer in contact is not the one expected, the liquid turns black and black smoke appears. If the water flow collision box of the erlenmeyer_final is in contact with the collision box of the sink, the liquid starts to flow until it is completely emptied. If the colour of the erlenmeyer_final is the right color (dark_green), a green smoke appears with a number 4.
-- [Wobble](Assets/LaboAsset/Scripts/Wooble.cs/): Wobble effect of the liquid in the erlenmeyer flask. *This script was used as is from an online tutorial.*
+- [Wobble](Assets/LaboAsset/Scripts/Wooble.cs/): Wobble effect of the liquid in the erlenmeyer flask. *This script was used as is from an online tutorial:* https://youtu.be/tI3USKIbnh0
 - [GlassButtoncorrosion](Assets/LaboAsset/Scripts/GlassButtoncorrosion.cs/): If the box collider of the current object (box_glass) is in contact with the box collider of the water stream of the erlenmeyer_final of the correct colour (dark_green), then the box_glass is inactivated.
 #### Assets:
 - 
