@@ -12,7 +12,6 @@ public class BotDetectionArea : MonoBehaviour
     void Update()
     {
         BotColliderisActive = gameObject.activeSelf; //Each frame check if the collider is active or not
-        Debug.Log("Botcollider is active" + BotColliderisActive);
     }
 
     void OnTriggerEnter(Collider other)
