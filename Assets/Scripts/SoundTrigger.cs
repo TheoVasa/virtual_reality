@@ -12,12 +12,8 @@ public class SoundTrigger : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        print("Collision");
-        print(Alreadyplay);
-        print(other.CompareTag("Player"));
         if (other.CompareTag("Player") && Alreadyplay == false)
         {
-            print("Cool");
             Alreadyplay = true;
             sound.Play();
         }

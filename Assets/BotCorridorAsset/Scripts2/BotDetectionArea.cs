@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class BotDetectionArea : MonoBehaviour
 {
@@ -7,14 +8,22 @@ public class BotDetectionArea : MonoBehaviour
 
     public Transform Rig;
     public Transform Camera;
+    public Transform initialPlayerPosition;
 
-    private Vector3 initialRigPosition;
-    private Quaternion initialRigRotation;
+    public GameObject gameOverHUD;
 
     void Start()
     {
-        initialRigPosition = Rig.position;
-        initialRigRotation = Rig.rotation;
+        StartCoroutine(PositionRigAfterXRSetup());
+    }
+
+    IEnumerator PositionRigAfterXRSetup()
+    {
+        yield return null; // wait 1 frame for XR camera to initialize
+
+        Vector3 cameraOffset = Camera.localPosition;
+        Rig.position = initialPlayerPosition.position - new Vector3(cameraOffset.x, 0, cameraOffset.z);
+        Rig.rotation = initialPlayerPosition.rotation;
     }
 
     void Update()
@@ -24,22 +33,25 @@ public class BotDetectionArea : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Tag of other" + other.gameObject.tag);
         //if the player collider enter the bot collider when the box collider is active then GameOver (or start increase stressbar if time to do it)
         if (other.CompareTag("Player") && BotColliderisActive)
         {
             Debug.Log("Enter into the Dection area of the Bot");
             Debug.Log("GameOver");
-            ResetXRPlayerPosition();
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //reload the scene
+            GameOver();
         }
     }
 
-    void ResetXRPlayerPosition()
+    void GameOver()
     {
-        Vector3 cameraOffset = Camera.localPosition;
+        StartCoroutine(GameOverHUDDisplay()); 
+    }
 
-        Rig.position = initialRigPosition - new Vector3(cameraOffset.x, 0, cameraOffset.z);
-        Rig.rotation = initialRigRotation;
+    IEnumerator GameOverHUDDisplay()
+    {
+        gameOverHUD.SetActive(true);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        yield return new WaitForSeconds(1f);
+        gameOverHUD.SetActive(false);
     }
 }
