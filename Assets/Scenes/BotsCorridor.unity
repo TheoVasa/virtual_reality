@@ -3185,6 +3185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd318f285cc633344b70e70b0dc24d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Rig: {fileID: 1399992158}
+  Camera: {fileID: 1399992157}
 --- !u!1 &423498355
 GameObject:
   m_ObjectHideFlags: 0
@@ -5017,6 +5019,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd318f285cc633344b70e70b0dc24d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Rig: {fileID: 1399992158}
+  Camera: {fileID: 1399992157}
 --- !u!1 &735076127
 GameObject:
   m_ObjectHideFlags: 0
@@ -5814,6 +5818,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd318f285cc633344b70e70b0dc24d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Rig: {fileID: 1399992158}
+  Camera: {fileID: 1399992157}
 --- !u!1001 &820555793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8497,6 +8503,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd318f285cc633344b70e70b0dc24d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Rig: {fileID: 1399992158}
+  Camera: {fileID: 1399992157}
 --- !u!1001 &1156634424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10042,6 +10050,11 @@ PrefabInstance:
 --- !u!4 &1399992157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1767192434, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 1399992156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1399992158 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
   m_PrefabInstance: {fileID: 1399992156}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1436733405
@@ -12342,6 +12355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd318f285cc633344b70e70b0dc24d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Rig: {fileID: 1399992158}
+  Camera: {fileID: 1399992157}
 --- !u!1001 &1738842887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12470,6 +12485,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd318f285cc633344b70e70b0dc24d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Rig: {fileID: 1399992158}
+  Camera: {fileID: 1399992157}
 --- !u!1001 &1743814724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13375,6 +13392,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd318f285cc633344b70e70b0dc24d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Rig: {fileID: 1399992158}
+  Camera: {fileID: 1399992157}
 --- !u!1001 &1882980955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13632,6 +13651,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd318f285cc633344b70e70b0dc24d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Rig: {fileID: 1399992158}
+  Camera: {fileID: 1399992157}
 --- !u!1 &1904006802
 GameObject:
   m_ObjectHideFlags: 0

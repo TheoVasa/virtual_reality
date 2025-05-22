@@ -3,12 +3,20 @@ using UnityEngine.SceneManagement;
 
 public class BotDetectionArea : MonoBehaviour
 {
-
     private bool BotColliderisActive; //Boolean to check if the Bot Collider is active or not
 
-    // Update is called once per frame
+    public Transform Rig;
+    public Transform Camera;
 
-    
+    private Vector3 initialRigPosition;
+    private Quaternion initialRigRotation;
+
+    void Start()
+    {
+        initialRigPosition = Rig.position;
+        initialRigRotation = Rig.rotation;
+    }
+
     void Update()
     {
         BotColliderisActive = gameObject.activeSelf; //Each frame check if the collider is active or not
@@ -22,12 +30,16 @@ public class BotDetectionArea : MonoBehaviour
         {
             Debug.Log("Enter into the Dection area of the Bot");
             Debug.Log("GameOver");
+            ResetXRPlayerPosition();
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //reload the scene
         }
     }
 
-    void OnTriggerStay(Collider other)
+    void ResetXRPlayerPosition()
     {
-        //if want to implement the stressbar then must increase the stressbar more and more if the player is in the detection area of the bots
+        Vector3 cameraOffset = Camera.localPosition;
+
+        Rig.position = initialRigPosition - new Vector3(cameraOffset.x, 0, cameraOffset.z);
+        Rig.rotation = initialRigRotation;
     }
 }
