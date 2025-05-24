@@ -19,7 +19,8 @@ Game project using virtual reality
 ### Server room
 ### Bots corridor
 #### Scripts:
-- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): *The part of the code responsible from the reloading of the scene and the restart of the position of the player was developped with help of ChatGPT*. If the bow collider of the current object is active and that the Player object enter in contact with it then 
+- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): *The part of the code responsible for reloading the scene and restarting the player position was developed with the help of ChatGPT*. If the current object's box collider is active and the Player object comes into contact with it, Gameover is activated and the scene is reload.
+- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): If the current object's box collider, it means the light switch, is active and one of the "Light_switch" tag object comes into contact with it, then the light is switch off and the box collider of the corresponding bot is desactivate.
 #### Assets:
 ### Prof's Desk
 ### General
