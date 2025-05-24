@@ -22,6 +22,7 @@ Game project using virtual reality
 - [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): *The part of the code responsible for reloading the scene and restarting the player position was developed with the help of ChatGPT*. If the current object's box collider is active and the Player object comes into contact with it, Gameover is activated and the scene is reload.
 - [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): If the current object's box collider, it means the light switch, is active and one of the "Light_switch" tag object comes into contact with it, then the light is switch off and the box collider of the corresponding bot is desactivate.
 #### Assets:
+- [Ball and FootBall](Assets/BotCorridorAsset/prefabs2/): Grab balls to throw at the switch.
 ### Prof's Desk
 ### General
 
@@ -36,6 +37,8 @@ Game project using virtual reality
 - [WaterAnimator and VFX graph](Assets/LaboAsset/prefabs/vfxgraph_AnimateWater.vfx/): The water stream animation was created following an online tutorial and was modified (remove of some 3D models and change of colours) to adapted to the project : [link](https://youtu.be/_H8gBKGKbnU)
 ### Server room
 ### Bots corridor
+#### Assets:
+- [Lockers](Assets/BotCorridorAsset/prefabs2/): The lockers come from the basic assets used for school objects. They were modified to add shelves inside to store objects. This was done using Blender: [link](TODO)
 ### Prof's Desk
 ### General
 
