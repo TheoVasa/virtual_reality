@@ -8,7 +8,7 @@ Game project using virtual reality
 
 ### Tutos room
 ### Climb corridor
-### Lab room:
+### Lab room
 #### Scripts:
 - [PourDetector](Assets/LaboAsset/Scripts/PourDetector.cs/): If the current object (erlenmyer) is rotated by more than 90° in absolute value, the watering effect is activated, including activation of the water stream animation.
 - [Fill](Assets/LaboAsset/Scripts/Fill.cs/):  If the collision box of the current object (erlenmeyer_final) comes into contact with the collision box of the water stream animation of an erlenmeyer of the correct colour, the erlenmeyer_final begins to fill and has changed colour from the original colour of the erlenmeyer_final to the colour of the target mixture. If the colour of the erlenmeyer in contact is not the one expected, the liquid turns black and black smoke appears. If the water flow collision box of the erlenmeyer_final is in contact with the collision box of the sink, the liquid starts to flow until it is completely emptied. If the colour of the erlenmeyer_final is the right colour (dark_green), a green smoke appears with a number 4.
@@ -18,6 +18,9 @@ Game project using virtual reality
 - [Box Glass](Assets/LaboAsset/Models/box_glass.fbx/): Box with a transparent glass created on Blender used to protect the door opening button.
 ### Server room
 ### Bots corridor
+#### Scripts:
+- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): *The part of the code responsible from the reloading of the scene and the restart of the position of the player was developped with help of ChatGPT*. If the bow collider of the current object is active and that the Player object enter in contact with it then 
+#### Assets:
 ### Prof's Desk
 ### General
 
@@ -25,7 +28,7 @@ Game project using virtual reality
 
 ### Tutos room
 ### Climb corridor
-### Lab room:
+### Lab room
 #### Assets:
 - [Erlenmeyer](Assets/LaboAsset/prefabs/): Erlenmeyer from [3D Laboratory Environment with Appratus](Assets/LaboAsset/) were modified with Blender to increase the size of the liquid flask to make the wooble effect more realistic
 - [Shader VFX](Assets/LaboAsset/Shader): The Liquid shader material was created following an online tutorial and was adapted to the project: [link](https://youtu.be/tI3USKIbnh0)
@@ -39,7 +42,7 @@ Game project using virtual reality
 
 ### Tutos room
 ### Climb corridor
-### Lab room:
+### Lab room
 #### Scripts:
 - [Wobble](Assets/LaboAsset/Scripts/Wooble.cs/): Wobble effect of the liquid in the erlenmeyer flask. *This script was used as is from an online tutorial:*: [link](https://youtu.be/tI3USKIbnh0)
 #### Assets:
