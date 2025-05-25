@@ -1,9 +1,8 @@
 # 1. Description of the Project
-Game project using virtual reality
+In this VR stealth-puzzle game, the player embodies a desperate student on a night-time mission to change his bad grade. Armed only with a flashlight and quick thinking, the player must infiltrate the university building, solve environmental puzzles, avoid security, find a way to the professor's office, and eventually hack the professor's computer, allowing him to change his grade.
 
 # 2. References
-
-
+-------------------------
 ## 2.1 Produced scripts and assets created by the team
 
 ### Climb corridor
@@ -53,7 +52,7 @@ Game project using virtual reality
 - [DoorHandler](Assets/Scripts/DoorHandler.cs): Controls the opening of a door, the rotation part was written with the help of OpenAI ChatGPT
 #### Assets:
 - /
-
+-------------------------
 ## 2.2 Adapted scripts and assets from external sources
 ### Tutos room
 #### Scripts:
@@ -103,8 +102,9 @@ Four created prefab to represent sticky notes where the code number are present.
 #### Scripts:
 - /
 #### Assets:
-- [DoorPackFree](Assets/01_AssetStore/DoorPackFree): Prefab adapted to create the majority of the doors in the game. 
-
+- [DoorPackFree](Assets/01_AssetStore/DoorPackFree): Prefab adapted to create the majority of the doors in the game.
+  
+-------------------------
 ## 2.3 Unmodified scripts and assets from external sources
 ### Tutos room
 #### Assets:
