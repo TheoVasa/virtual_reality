@@ -40,7 +40,7 @@ Game project using virtual reality
 ### Server room
 ### Bots corridor
 #### Assets:
-- [Lockers](Assets/BotCorridorAsset/prefabs2/): The lockers come from the basic assets used for school objects. They were modified to add shelves inside to store objects. This was done using Blender: [link](TODO)
+- [Lockers](Assets/BotCorridorAsset/prefabs2/): The lockers come from the basic assets used for school objects. They were modified to add shelves inside to store objects. This was done using Blender: [link](https://styloo.itch.io/classroom-asset-pack)
 ### Prof's Desk
 ### General
 
@@ -52,7 +52,7 @@ Game project using virtual reality
 #### Scripts:
 - [Wobble](Assets/LaboAsset/Scripts/Wooble.cs/): Wobble effect of the liquid in the erlenmeyer flask. *This script was used as is from an online tutorial:*: [link](https://youtu.be/tI3USKIbnh0)
 #### Assets:
-- [Classroom and Laboratory assets](Assets/Rayan_assets/Importing%Assets/)
+- [Classroom and Laboratory assets](Assets/Rayan_assets/Importing%Assets/): [link](https://styloo.itch.io/classroom-asset-pack)
 - [3D Laboratory Environment with Appratus](Assets/LaboAsset/): [link](TODO)
 - [Water Texture](Assets/LaboAsset/Textures/): [link](https://youtu.be/_H8gBKGKbnU)
 - [PushButton](Assets/Samples/XR%20Interaction%20Toolkit/3.0.8/Starter%20Assets/DemoSceneAssets/Prefabs/Interactables/Push%20Button.prefab): Push button from the VR demo scene from unity.
@@ -62,8 +62,8 @@ Game project using virtual reality
 ### Bots corridor
 #### Assets:
 - [BodyGuards and BotsAnimation](Assets/BotCorridorAsset/): [Mixamo](https://www.mixamo.com/#/?page=1&query=alex&type=Character)
-- [ClassroomObjects](Assets/BotCorridorAsset/prefabs2/): [link](TODO)
-- [SocketsAndSwitches](Assets/BotCorridorAsset/): [link](TODO)
+- [ClassroomObjects](Assets/BotCorridorAsset/prefabs2/): [link](https://styloo.itch.io/classroom-asset-pack)
+- [SocketsAndSwitches](Assets/BotCorridorAsset/): [link](https://assetstore.unity.com/packages/3d/props/interior/free-sockets-and-switches-233085)
 - [Switch Light Sound Effect](Assets/BotCorridorAsset/Sounds/): [link](https://pixabay.com/sound-effects/projector-button-push-6258/)
 - [Voice](Assets/BotCorridorAsset/Sounds/): [link](TODO)
 ### Prof's Desk
