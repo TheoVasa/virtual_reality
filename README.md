@@ -6,9 +6,6 @@ Game project using virtual reality
 
 ## 2.1 Produced scripts and assets created by the team
 
-### Tutos room
-- /
-
 ### Climb corridor
 - Same scripts/assets as Bots Corridor
 
