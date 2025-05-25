@@ -25,6 +25,8 @@ Game project using virtual reality
 - [Ball and FootBall](Assets/BotCorridorAsset/prefabs2/): Grab balls to throw at the switch.
 ### Prof's Desk
 ### General
+#### Scripts:
+- [SoundTrigger](Assets/Scripts/SoundTrigger.cs/): Trigger the activation of the voice if in contact with some collider.
 
 ## 2.2 Adapted scripts and assets from external sources
 
@@ -58,6 +60,12 @@ Game project using virtual reality
 - [Smoke explosion Sound Effect](Assets/LaboAsset/Sounds/): [link](TODO)
 ### Server room
 ### Bots corridor
+#### Assets:
+- [BodyGuards and BotsAnimation](Assets/BotCorridorAsset/): [Mixamo](https://www.mixamo.com/#/?page=1&query=alex&type=Character)
+- [ClassroomObjects](Assets/BotCorridorAsset/prefabs2/): [link](link)
+- [SocketsAndSwitches](Assets/BotCorridorAsset/): [link](link)
+- [Switch Light Sound Effect](Assets/BotCorridorAsset/Sounds/): [link]()
+- [BodyGuards and BotsAnimation](Assets/BotCorridorAsset/Sounds/): [link]()
 ### Prof's Desk
 ### General
 
@@ -80,8 +88,8 @@ The player must follow the instructions displayed on the whiteboards to create a
 - [Shader VFX](Assets/LaboAsset/Shader): The Liquid shader material was created following an online tutorial and was adapted to the project: [link](https://youtu.be/tI3USKIbnh0)
 - [WaterAnimator and VFX graph](Assets/LaboAsset/prefabs/vfxgraph_AnimateWater.vfx/): The water stream animation was created following an online tutorial and was modified (remove of some 3D models and change of colours) to adapted to the project : [link](https://youtu.be/_H8gBKGKbnU)
 
-### Interaction 2
-### Interaction 3
+### Hand/Controller:
+### Simon:
 
 ## 3.2 Movement interaction
 
