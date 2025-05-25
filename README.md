@@ -70,7 +70,7 @@ In this VR stealth-puzzle game, the player embodies a desperate student on a nig
 #### Assets:
 - /
 ## 2.2 Adapted scripts and assets from external sources
-### Tutos room
+### Classroom
 #### Scripts:
 - [Keypad](Assets/Keypad/Scripts/Keypad.cs)
 - [KeypadButton](Assets/Keypad/Scripts/KeypadButton.cs)
@@ -121,7 +121,7 @@ Four created prefab to represent sticky notes where the code number are present.
 - [DoorPackFree](Assets/01_AssetStore/DoorPackFree): Prefab adapted to create the majority of the doors in the game.
   
 ## 2.3 Unmodified scripts and assets from external sources
-### Tutos room
+### Classroom
 #### Assets:
 - [Office supply](Assets/Office%20Supplies%20Low%20Poly) Fornitures for the classroom 
 
