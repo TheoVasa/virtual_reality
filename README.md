@@ -7,7 +7,17 @@ Game project using virtual reality
 ## 2.1 Produced scripts and assets created by the team
 
 ### Tutos room
+- /
+#### Assets:
+- [Sticky_note_blue](Assets/OfficeSuppliesLowPoly/Assets/Prefabs/Sticky_note_blue.prefab/)
+- [Sticky_note_red](Assets/OfficeSuppliesLowPoly/Assets/Prefabs/Sticky_note_red.prefab)
+- [Sticky_note_yellow](Assets/OfficeSuppliesLowPoly/Assets/Prefabs/Sticky_note_yellow.prefab)
+- [Sticky_note_green](Assets/OfficeSuppliesLowPoly/Assets/Prefabs/Sticky_note_green.prefab)
+- Four created prefab to represent sticky notes where the code number are present. The texture was created using OpenAI ChatGPT image generation
 ### Climb corridor
+- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): *The part of the code responsible for reloading the scene and restarting the player position was developed with the help of ChatGPT*. If the current object's box collider is active and the Player object comes into contact with it, Gameover is activated and the scene is reload.
+- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): If the current object's box collider, it means the light switch, is active and one of the "Light_switch" tag object comes into contact with it, then the light is switch off and the box collider of the corresponding bot is desactivate.
+
 ### Lab room
 #### Scripts:
 - [PourDetector](Assets/LaboAsset/Scripts/PourDetector.cs/): If the current object (erlenmyer) is rotated by more than 90° in absolute value, the watering effect is activated, including activation of the water stream animation.
@@ -19,8 +29,7 @@ Game project using virtual reality
 ### Server room
 ### Bots corridor
 #### Scripts:
-- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): *The part of the code responsible for reloading the scene and restarting the player position was developed with the help of ChatGPT*. If the current object's box collider is active and the Player object comes into contact with it, Gameover is activated and the scene is reload.
-- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): If the current object's box collider, it means the light switch, is active and one of the "Light_switch" tag object comes into contact with it, then the light is switch off and the box collider of the corresponding bot is desactivate.
+- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/) (same as in corridor climb)
 #### Assets:
 - [Ball and FootBall](Assets/BotCorridorAsset/prefabs2/): Grab balls to throw at the switch.
 ### Prof's Desk
@@ -48,7 +57,12 @@ Game project using virtual reality
 ## 2.3 Unmodified scripts and assets from external sources
 
 ### Tutos room
-### Climb corridor
+#### Scripts: 
+#### Assets:
+- [Office supply](Assets/OfficeSuppliesLowPoly) Fornitures for the classroom 
+
+### Climb corridor: 
+- Same as Bots Corridor
 ### Lab room
 #### Scripts:
 - [Wobble](Assets/LaboAsset/Scripts/Wooble.cs/): Wobble effect of the liquid in the erlenmeyer flask. *This script was used as is from an online tutorial:*: [link](https://youtu.be/tI3USKIbnh0)
@@ -94,6 +108,7 @@ The player must follow the instructions displayed on the whiteboards to create a
 ### Simon:
 
 ## 3.2 Movement interaction
+### Tyrolien
 
 ### Tyrolien
 
