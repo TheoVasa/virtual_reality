@@ -3,16 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - Grab interactable
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Overlay UI
   - Water
   - UI
-  - ceiling
   - 
   - 
   - 
@@ -37,7 +35,8 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - torchlight
+  - OVROverlayCanvas Rendering
   m_SortingLayers:
   - name: Default
     uniqueID: 0

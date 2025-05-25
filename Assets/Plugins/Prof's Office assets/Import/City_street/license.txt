@@ -1,0 +1,11 @@
+Model Information:
+* title:	City street
+* source:	https://sketchfab.com/3d-models/city-street-cc0eff24a1664b80877cfa071b4c1209
+* author:	Artemis (https://sketchfab.com/Artemis26)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "City street" (https://sketchfab.com/3d-models/city-street-cc0eff24a1664b80877cfa071b4c1209) by Artemis (https://sketchfab.com/Artemis26) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

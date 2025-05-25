@@ -5,15 +5,32 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 1
+    path: Assets/Scenes/SceneLaboratoryRoom.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+    path: Assets/Scenes/manytests.unity
+    guid: dc537f8a6f159d7469050259d80c9647
+  - enabled: 1
+    path: Assets/Scenes/TutoScene.unity
     guid: e14846be1aca83a42bda3de74f9bd63b
+  - enabled: 1
+    path: Assets/Scenes/CorridorClimb.unity
+    guid: 7c3c6c11513ce48b192afb748bfc247b
+  - enabled: 1
+    path: Assets/Scenes/Serveur_Scene.unity
+    guid: ae8202e10758c4f17816598d3611dca6
+  - enabled: 1
+    path: Assets/Scenes/BotsCorridor.unity
+    guid: 9c62db88ab9519b478d13b83bb0eb084
+  - enabled: 1
+    path: Assets/Scenes/HomeScreen.unity
+    guid: 0397f9b4da2f1644abcc6264d8d6f5a3
+  - enabled: 1
+    path: Assets/Scenes/GameScene/Tutoriel.unity
+    guid: 0622ed390f6da4e37932cae6b8ea9fab
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f18586bcb11870049a9365fcb6140d04, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 454924d64df5ec347adf2b2d8951123f, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9dec79387782a2e4882b790a65258945, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2c3df5b76ebb83f4e9202a38030c6a10, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 193148c0bdfdc6a499cb87677d1fc67e, type: 2}
   m_UseUCBPForAssetBundles: 0
