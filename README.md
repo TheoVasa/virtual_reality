@@ -10,7 +10,7 @@ Game project using virtual reality
 - /
 
 ### Climb corridor
-- Same as Bots Corridor
+- Same scripts/assets as Bots Corridor
 
 
 ### Lab room
@@ -21,19 +21,31 @@ Game project using virtual reality
 #### Assets:
 - [Lab instructions Images UI](<Assets/LaboAsset/Image UI/Labo/>): Images created to help the player
 - [Box Glass](Assets/LaboAsset/Models/box_glass.fbx/): Box with a transparent glass created on Blender used to protect the door opening button.
+
+
 ### Server room
+#### Scripts:
+- TODO
+#### Assets:
+- TODO
+
+  
 ### Bots corridor
 #### Scripts:
 - [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): *The part of the code responsible for reloading the scene and restarting the player position was developed with the help of ChatGPT*. If the current object's box collider is active and the Player object comes into contact with it, Gameover is activated and the scene is reload.
 - [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): If the current object's box collider, it means the light switch, is active and one of the "Light_switch" tag object comes into contact with it, then the light is switch off and the box collider of the corresponding bot is desactivate.
 #### Assets:
 - [Ball and FootBall](Assets/BotCorridorAsset/prefabs2/): Grab balls to throw at the switch.
+
+  
 ### Prof's Desk
+#### Scripts:
+- TODO
+#### Assets:
+- TODO
 
 
 ### General
-
-
 #### Scripts:
 - [SoundTrigger](Assets/Scripts/SoundTrigger.cs/): Trigger the activation of the voice if in contact with some collider.
 - [VoiceOverTrigger](Assets/Scripts/VoiceOverTrigger.cs): Other way of activation of the voice overs, works with the VoiceOverManager and also allows to play a sound when a collider is hitted with the flashlight beam
@@ -46,7 +58,6 @@ Game project using virtual reality
 - /
 
 ## 2.2 Adapted scripts and assets from external sources
-
 ### Tutos room
 #### Scripts:
 - [Keypad](Assets/Keypad/Scripts/Keypad.cs)
@@ -60,29 +71,51 @@ These three scripts manage the digicode interaction and were adapted from the or
 - [Sticky_note_yellow](Assets/Office%20Supplies%20Low%20Poly/Assets/Prefabs/Sticky_note_yellow.prefab)
 - [Sticky_note_green](Assets/Office%20Supplies%20Low%20Poly/Assets/Prefabs/Sticky_note_green.prefab)
 Four created prefab to represent sticky notes where the code number are present. The texture was created using OpenAI ChatGPT image generation
+
+
 ### Climb corridor
 - Same Scripts/Assets as Bots Corridor
+
+
 ### Lab room
 #### Assets:
 - [Erlenmeyer](Assets/LaboAsset/prefabs/): Erlenmeyer from [3D Laboratory Environment with Appratus](Assets/LaboAsset/) were modified with Blender to increase the size of the liquid flask to make the wooble effect more realistic: [link](https://assetstore.unity.com/packages/3d/environments/chemistry-lab-items-pack-220212)
 - [Shader VFX](Assets/LaboAsset/Shader): The Liquid shader material was created following an online tutorial and was adapted to the project: [link](https://youtu.be/tI3USKIbnh0)
 - [WaterAnimator and VFX graph](Assets/LaboAsset/prefabs/vfxgraph_AnimateWater.vfx/): The water stream animation was created following an online tutorial and was modified (remove of some 3D models and change of colours) to adapted to the project : [link](https://youtu.be/_H8gBKGKbnU)
+
+
 ### Server room
+#### Scripts:
+- TODO
+#### Assets:
+- TODO
+
 ### Bots corridor
 #### Assets:
 - [Lockers](Assets/BotCorridorAsset/prefabs2/): The lockers come from the basic assets used for school objects. They were modified to add shelves inside to store objects. This was done using Blender: [link](https://styloo.itch.io/classroom-asset-pack)
+
+
 ### Prof's Desk
+#### Scripts:
+- TODO
+#### Assets:
+- TODO
+
+  
 ### General
+#### Scripts:
+- /
+#### Assets:
+- [DoorPackFree](Assets/01_AssetStore/DoorPackFree): Prefab adapted to create the majority of the doors in the game. 
 
 ## 2.3 Unmodified scripts and assets from external sources
-
 ### Tutos room
-#### Scripts: 
 #### Assets:
 - [Office supply](Assets/Office%20Supplies%20Low%20Poly) Fornitures for the classroom 
 
 ### Climb corridor: 
 - Same as Bots Corridor
+
 ### Lab room
 #### Scripts:
 - [Wobble](Assets/LaboAsset/Scripts/Wooble.cs/): Wobble effect of the liquid in the erlenmeyer flask. *This script was used as is from an online tutorial:*: [link](https://youtu.be/tI3USKIbnh0)
@@ -93,24 +126,37 @@ Four created prefab to represent sticky notes where the code number are present.
 - [PushButton](Assets/Samples/XR%20Interaction%20Toolkit/3.0.8/Starter%20Assets/DemoSceneAssets/Prefabs/Interactables/Push%20Button.prefab): Push button from the VR demo scene from unity.
 - [Water Pour Sound Effect](Assets/LaboAsset/Sounds/): [link](https://pixabay.com/sound-effects/water-tap-93502/)
 - [Smoke explosion Sound Effect](Assets/LaboAsset/Sounds/): [link](https://pixabay.com/sound-effects/smoke-bomb-6761/)
+
 ### Server room
+#### Scripts:
+- TODO
+#### Assets:
+- TODO
+
 ### Bots corridor
 #### Assets:
 - [BodyGuards and BotsAnimation](Assets/BotCorridorAsset/): [Mixamo](https://www.mixamo.com/#/?page=1&query=alex&type=Character)
 - [ClassroomObjects](Assets/BotCorridorAsset/prefabs2/): [link](https://styloo.itch.io/classroom-asset-pack)
 - [SocketsAndSwitches](Assets/BotCorridorAsset/): [link](https://assetstore.unity.com/packages/3d/props/interior/free-sockets-and-switches-233085)
 - [Switch Light Sound Effect](Assets/BotCorridorAsset/Sounds/): [link](https://pixabay.com/sound-effects/projector-button-push-6258/)
+
+
 ### Prof's Desk
+#### Scripts:
+- TODO
+#### Assets:
+- TODO
+
+
 ### General
+#### Scripts: 
+- XRInteractionToolkit
 #### Assets:
 - [AI Voices](Assets/): [link](TODO)
 
 # 3. Custom interactions
-
 ## 3.1 Non-movement interaction
-
 ### Potion mix:
-
 #### Scene: [Lab Room](Assets/LaboAsset/)
 #### Description:
 The player must follow the instructions displayed on the whiteboards to create an acid solution in order to make the glass of the box containing the button to open the door disappear. To create the acid, the player must mix different solutions of different colours in the correct order. A number for the final code appears as smoke when the acid solution is finished.
@@ -125,11 +171,23 @@ The player must follow the instructions displayed on the whiteboards to create a
 - [WaterAnimator and VFX graph](Assets/LaboAsset/prefabs/vfxgraph_AnimateWater.vfx/): The water stream animation was created following an online tutorial and was modified (remove of some 3D models and change of colours) to adapted to the project : [link](https://youtu.be/_H8gBKGKbnU)
 
 ### Hand/Controller:
-### Simon:
+#### Scripts:
+- TODO
+#### Assets:
+- TODO
 
+### Simon:
+#### Scripts:
+- TODO
+#### Assets:
+- TODO
+  
 ## 3.2 Movement interaction
 ### Tyrolien
-
-### Tyrolien
+#### Scripts:
+- TODO
+#### Assets:
+- TODO
 
 # 4. How to use the code
+
