@@ -20,9 +20,27 @@ In this VR stealth-puzzle game, the player embodies a desperate student on a nig
 
 ### Server room
 #### Scripts:
-- TODO
+
+- [SocketInteractionSlider](<Assets/Rayan_assets/Scripts_Server/>): Controls the sliding motion of an object when a plug is inserted into or removed from a socket interactor. Slides the object down on plug insertion and slides it back up when the user grabs the plug.
+- [SocketInteractionExecutor](<Assets/Rayan_assets/Scripts_Server/>): Executes predefined UnityEvents when an object is inserted into or removed from a socket. Useful for triggering actions like animations, sounds, or material changes in response to socket interaction.
+- [ScreenMaterialSequence](<Assets/Rayan_assets/Scripts_Server/>): Switches the screen material from a loading material to a final one after a set delay when triggered, and reverts to an off material when the plug is removed.
+- [MultiSocketChecker](<Assets/Rayan_assets/Scripts_Server/>): Monitors multiple socket interactors and triggers an action only when all sockets are occupied. Reverses the action when any socket becomes empty. Useful for coordinated multi-plug mechanics. Code was designed with the help of ChatGPT.
+- [FreeGrabOverride](<Assets/Rayan_assets/Scripts_Server/>): Overrides the attach transform of an XRGrabInteractable to allow free-hand grabbing without snapping to a predefined attach point, while maintaining proper behavior when placed in sockets. Code was designed with the help of ChatGPT.
+- [DoorSlider](<Assets/Rayan_assets/Scripts_Server/>): Moves a door between open and closed positions by sliding it along a vector direction. Used to represent mechanical door movement triggered by plug insertion or removal through the ISocketAction interface.
+- [ActivateWallsOnGrab](<Assets/Rayan_assets/Scripts_Server/>): Activates a group of wall GameObjects when the player grabs a specific interactable, and deactivates them upon release — while ignoring interactions triggered by sockets.
+- [ScreenMaterialChanger](<Assets/Rayan_assets/Scripts_Server/>): Changes the material of a screen object between an "active" material and a "black/off" material. Useful for visually turning a screen on or off based on external events or logic.
+- [ISocketAction](<Assets/Rayan_assets/Scripts_Server/>): An interface that defines two methods — ExecuteAction() and UndoAction() — used to standardize plug-in/plug-out behavior for components reacting to XR socket events. Code was designed with the help of ChatGPT.
+- [DoorRotator](<Assets/Rayan_assets/Scripts_Server/>): Rotates a door around a specified axis by a given angle using smooth interpolation. The door can be opened or closed by triggering OpenDoor() or CloseDoor(), making it suitable for animated mechanical responses.
+- [CableFollowOnGrab](<Assets/Rayan_assets/Scripts_Server/>): Updates an ACC_Trail cable in real time while the object is being grabbed via XRGrabInteractable. Ensures the visual cable follows the grab point dynamically during interaction. Requires the NOT_Lonely Advanced Cable Creator (ACC) asset. Code was designed with the help of ChatGPT.
+- [CableFollow](<Assets/Rayan_assets/Scripts_Server/>): Continuously updates an ACC_Trail cable when the isActive flag is true. Used to manually control the cable update process, typically when grab-based logic is handled externally. Requires the NOT_Lonely Advanced Cable Creator (ACC) asset. Code was designed with the help of ChatGPT.
+
 #### Assets:
-- TODO
+
+- [wirebuilder](<Assets/>): Allows the creation of cables and plugs for interactive setups.
+- [Ipoly3D](<Assets/>): Contains most of the server prefabs used in the scene.
+- [NOT_LONELY](<Assets/>): Provides the Advanced Cable Creator system used to visually simulate realistic cables.
+- [XLR_male, XLR_female](<Assets/>): Models of XLR plugs and sockets used for visual and interactive connection points.
+- [ProBuilder](<Assets/>): Unity tool used to modify and prototype custom 3D geometry directly in the editor.
 
   
 ### Bots corridor
