@@ -146,7 +146,7 @@ Four created prefab to represent sticky notes where the code number are present.
 #### Scripts: 
 - XRInteractionToolkit
 #### Assets:
-- [AI Voices](Assets/): [link](TODO)
+- [AI Voices](Assets/): TODO
 
 # 3. Custom interactions
 ## 3.1 Non-movement interaction
