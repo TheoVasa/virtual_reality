@@ -27,6 +27,7 @@ Game project using virtual reality
 ### General
 #### Scripts:
 - [SoundTrigger](Assets/Scripts/SoundTrigger.cs/): Trigger the activation of the voice if in contact with some collider.
+#### Assets:
 
 ## 2.2 Adapted scripts and assets from external sources
 
@@ -34,7 +35,7 @@ Game project using virtual reality
 ### Climb corridor
 ### Lab room
 #### Assets:
-- [Erlenmeyer](Assets/LaboAsset/prefabs/): Erlenmeyer from [3D Laboratory Environment with Appratus](Assets/LaboAsset/) were modified with Blender to increase the size of the liquid flask to make the wooble effect more realistic
+- [Erlenmeyer](Assets/LaboAsset/prefabs/): Erlenmeyer from [3D Laboratory Environment with Appratus](Assets/LaboAsset/) were modified with Blender to increase the size of the liquid flask to make the wooble effect more realistic: [link](https://assetstore.unity.com/packages/3d/environments/chemistry-lab-items-pack-220212)
 - [Shader VFX](Assets/LaboAsset/Shader): The Liquid shader material was created following an online tutorial and was adapted to the project: [link](https://youtu.be/tI3USKIbnh0)
 - [WaterAnimator and VFX graph](Assets/LaboAsset/prefabs/vfxgraph_AnimateWater.vfx/): The water stream animation was created following an online tutorial and was modified (remove of some 3D models and change of colours) to adapted to the project : [link](https://youtu.be/_H8gBKGKbnU)
 ### Server room
@@ -53,7 +54,7 @@ Game project using virtual reality
 - [Wobble](Assets/LaboAsset/Scripts/Wooble.cs/): Wobble effect of the liquid in the erlenmeyer flask. *This script was used as is from an online tutorial:*: [link](https://youtu.be/tI3USKIbnh0)
 #### Assets:
 - [Classroom and Laboratory assets](Assets/Rayan_assets/Importing%Assets/): [link](https://styloo.itch.io/classroom-asset-pack)
-- [3D Laboratory Environment with Appratus](Assets/LaboAsset/): [link](TODO)
+- [3D Laboratory Environment with Appratus](Assets/LaboAsset/): [link](https://assetstore.unity.com/packages/3d/environments/chemistry-lab-items-pack-220212)
 - [Water Texture](Assets/LaboAsset/Textures/): [link](https://youtu.be/_H8gBKGKbnU)
 - [PushButton](Assets/Samples/XR%20Interaction%20Toolkit/3.0.8/Starter%20Assets/DemoSceneAssets/Prefabs/Interactables/Push%20Button.prefab): Push button from the VR demo scene from unity.
 - [Water Pour Sound Effect](Assets/LaboAsset/Sounds/): [link](https://pixabay.com/sound-effects/water-tap-93502/)
@@ -65,9 +66,10 @@ Game project using virtual reality
 - [ClassroomObjects](Assets/BotCorridorAsset/prefabs2/): [link](https://styloo.itch.io/classroom-asset-pack)
 - [SocketsAndSwitches](Assets/BotCorridorAsset/): [link](https://assetstore.unity.com/packages/3d/props/interior/free-sockets-and-switches-233085)
 - [Switch Light Sound Effect](Assets/BotCorridorAsset/Sounds/): [link](https://pixabay.com/sound-effects/projector-button-push-6258/)
-- [Voice](Assets/BotCorridorAsset/Sounds/): [link](TODO)
 ### Prof's Desk
 ### General
+#### Assets:
+- [AI Voices](Assets/): [link](TODO)
 
 # 3. Custom interactions
 
