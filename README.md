@@ -53,19 +53,19 @@ Game project using virtual reality
 - [Wobble](Assets/LaboAsset/Scripts/Wooble.cs/): Wobble effect of the liquid in the erlenmeyer flask. *This script was used as is from an online tutorial:*: [link](https://youtu.be/tI3USKIbnh0)
 #### Assets:
 - [Classroom and Laboratory assets](Assets/Rayan_assets/Importing%Assets/)
-- [3D Laboratory Environment with Appratus](Assets/LaboAsset/): TODO LINK
+- [3D Laboratory Environment with Appratus](Assets/LaboAsset/): [link](TODO)
 - [Water Texture](Assets/LaboAsset/Textures/): [link](https://youtu.be/_H8gBKGKbnU)
 - [PushButton](Assets/Samples/XR%20Interaction%20Toolkit/3.0.8/Starter%20Assets/DemoSceneAssets/Prefabs/Interactables/Push%20Button.prefab): Push button from the VR demo scene from unity.
-- [Water Pour Sound Effect](Assets/LaboAsset/Sounds/): [link](TODO)
-- [Smoke explosion Sound Effect](Assets/LaboAsset/Sounds/): [link](TODO)
+- [Water Pour Sound Effect](Assets/LaboAsset/Sounds/): [link](https://pixabay.com/sound-effects/water-tap-93502/)
+- [Smoke explosion Sound Effect](Assets/LaboAsset/Sounds/): [link](https://pixabay.com/sound-effects/smoke-bomb-6761/)
 ### Server room
 ### Bots corridor
 #### Assets:
 - [BodyGuards and BotsAnimation](Assets/BotCorridorAsset/): [Mixamo](https://www.mixamo.com/#/?page=1&query=alex&type=Character)
-- [ClassroomObjects](Assets/BotCorridorAsset/prefabs2/): [link](link)
-- [SocketsAndSwitches](Assets/BotCorridorAsset/): [link](link)
-- [Switch Light Sound Effect](Assets/BotCorridorAsset/Sounds/): [link]()
-- [BodyGuards and BotsAnimation](Assets/BotCorridorAsset/Sounds/): [link]()
+- [ClassroomObjects](Assets/BotCorridorAsset/prefabs2/): [link](TODO)
+- [SocketsAndSwitches](Assets/BotCorridorAsset/): [link](TODO)
+- [Switch Light Sound Effect](Assets/BotCorridorAsset/Sounds/): [link](https://pixabay.com/sound-effects/projector-button-push-6258/)
+- [Voice](Assets/BotCorridorAsset/Sounds/): [link](TODO)
 ### Prof's Desk
 ### General
 
