@@ -34,14 +34,6 @@ In this VR stealth-puzzle game, the player embodies a desperate student on a nig
 - [CableFollowOnGrab](<Assets/Rayan_assets/Scripts_Server/>): Updates an ACC_Trail cable in real time while the object is being grabbed via XRGrabInteractable. Ensures the visual cable follows the grab point dynamically during interaction. Requires the NOT_Lonely Advanced Cable Creator (ACC) asset. Code was designed with the help of ChatGPT.
 - [CableFollow](<Assets/Rayan_assets/Scripts_Server/>): Continuously updates an ACC_Trail cable when the isActive flag is true. Used to manually control the cable update process, typically when grab-based logic is handled externally. Requires the NOT_Lonely Advanced Cable Creator (ACC) asset. Code was designed with the help of ChatGPT.
 
-#### Assets:
-
-- [wirebuilder](<Assets/>): Allows the creation of cables and plugs for interactive setups.
-- [Ipoly3D](<Assets/>): Contains most of the server prefabs used in the scene.
-- [NOT_LONELY](<Assets/>): Provides the Advanced Cable Creator system used to visually simulate realistic cables.
-- [XLR_male, XLR_female](<Assets/>): Models of XLR plugs and sockets used for visual and interactive connection points.
-- [ProBuilder](<Assets/>): Unity tool used to modify and prototype custom 3D geometry directly in the editor.
-
   
 ### Bots corridor
 #### Scripts:
@@ -96,12 +88,6 @@ Four created prefab to represent sticky notes where the code number are present.
 - [WaterAnimator and VFX graph](Assets/LaboAsset/prefabs/vfxgraph_AnimateWater.vfx/): The water stream animation was created following an online tutorial and was modified (remove of some 3D models and change of colours) to adapted to the project : [link](https://youtu.be/_H8gBKGKbnU)
 
 
-### Server room
-#### Scripts:
-- TODO
-#### Assets:
-- TODO
-
 ### Bots corridor
 #### Assets:
 - [Lockers](Assets/BotCorridorAsset/prefabs2/): The lockers come from the basic assets used for school objects. They were modified to add shelves inside to store objects. This was done using Blender: [link](https://styloo.itch.io/classroom-asset-pack)
@@ -139,11 +125,20 @@ Four created prefab to represent sticky notes where the code number are present.
 - [Water Pour Sound Effect](Assets/LaboAsset/Sounds/): [link](https://pixabay.com/sound-effects/water-tap-93502/)
 - [Smoke explosion Sound Effect](Assets/LaboAsset/Sounds/): [link](https://pixabay.com/sound-effects/smoke-bomb-6761/)
 
+
 ### Server room
 #### Scripts:
-- TODO
+- [wirebuilder](<Assets/>): Allows the creation of cables and plugs for interactive setups.
+- [Ipoly3D](<Assets/>): Contains most of the server prefabs used in the scene.
+- [NOT_LONELY](<Assets/>): Provides the Advanced Cable Creator system used to visually simulate realistic cables.
+- [XLR_male, XLR_female](<Assets/>): Models of XLR plugs and sockets used for visual and interactive connection points.
+- [ProBuilder](<Assets/>): Unity tool used to modify and prototype custom 3D geometry directly in the editor.
 #### Assets:
-- TODO
+- [wirebuilder](<Assets/>): Allows the creation of cables and plugs for interactive setups.
+- [Ipoly3D](<Assets/>): Contains most of the server prefabs used in the scene.
+- [NOT_LONELY](<Assets/>): Provides the Advanced Cable Creator system used to visually simulate realistic cables.
+- [XLR_male, XLR_female](<Assets/>): Models of XLR plugs and sockets used for visual and interactive connection points.
+- [ProBuilder](<Assets/>): Unity tool used to modify and prototype custom 3D geometry directly in the editor.
 
 ### Bots corridor
 #### Assets:
