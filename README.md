@@ -8,15 +8,10 @@ Game project using virtual reality
 
 ### Tutos room
 - /
-#### Assets:
-- [Sticky_note_blue](Assets/Office%20Supplies%20Low%20Poly/Assets/Prefabs/Sticky_note_blue.prefab/)
-- [Sticky_note_red](Assets/OfficeSuppliesLowPoly/Assets/Prefabs/Sticky_note_red.prefab)
-- [Sticky_note_yellow](Assets/OfficeSuppliesLowPoly/Assets/Prefabs/Sticky_note_yellow.prefab)
-- [Sticky_note_green](Assets/OfficeSuppliesLowPoly/Assets/Prefabs/Sticky_note_green.prefab)
-- Four created prefab to represent sticky notes where the code number are present. The texture was created using OpenAI ChatGPT image generation
+
 ### Climb corridor
-- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): *The part of the code responsible for reloading the scene and restarting the player position was developed with the help of ChatGPT*. If the current object's box collider is active and the Player object comes into contact with it, Gameover is activated and the scene is reload.
-- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): If the current object's box collider, it means the light switch, is active and one of the "Light_switch" tag object comes into contact with it, then the light is switch off and the box collider of the corresponding bot is desactivate.
+- Same as Bots Corridor
+
 
 ### Lab room
 #### Scripts:
@@ -29,19 +24,44 @@ Game project using virtual reality
 ### Server room
 ### Bots corridor
 #### Scripts:
-- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/) (same as in corridor climb)
+- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): *The part of the code responsible for reloading the scene and restarting the player position was developed with the help of ChatGPT*. If the current object's box collider is active and the Player object comes into contact with it, Gameover is activated and the scene is reload.
+- [BotDetectionArea](Assets/BotCorridorAsset/Scripts2/): If the current object's box collider, it means the light switch, is active and one of the "Light_switch" tag object comes into contact with it, then the light is switch off and the box collider of the corresponding bot is desactivate.
 #### Assets:
 - [Ball and FootBall](Assets/BotCorridorAsset/prefabs2/): Grab balls to throw at the switch.
 ### Prof's Desk
+
+
 ### General
+
+
 #### Scripts:
 - [SoundTrigger](Assets/Scripts/SoundTrigger.cs/): Trigger the activation of the voice if in contact with some collider.
+- [VoiceOverTrigger](Assets/Scripts/VoiceOverTrigger.cs): Other way of activation of the voice overs, works with the VoiceOverManager and also allows to play a sound when a collider is hitted with the flashlight beam
+- [VoiceOverManager](Assets/Scripts/VoiceOverManager.cs): Attached to the player, stores all the Audio clips needed for the voice over and the audio source, play the clips when asked by an event or by a VoiceOverTrigger
+- [SceneTeleporter](Assets/Scripts/SceneTeleporter.cs): Attached to the teleporter collider, it manages the teleportation with the other scenes
+- [SphereIntroScene](Assets/Scripts/SphereIntroScene.cs): Manage the white environnement and text at the beginning and end of each scenes (represented as a white inverse sphere around the camera), works with the SceneTeleporter to detect its presence and fade in depending on the distance to the teleporter.
+- [FlashLightController](Assets/Scripts/FlashLightController.cs): Controls the flashlight of the player, allowing the player to turn it on or off
+- [DoorHandler](Assets/Scripts/DoorHandler.cs): Controls the opening of a door, the rotation part was written with the help of OpenAI ChatGPT
 #### Assets:
+- /
 
 ## 2.2 Adapted scripts and assets from external sources
 
 ### Tutos room
+#### Scripts:
+- [Keypad](Assets/Keypad/Scripts/Keypad.cs)
+- [KeypadButton](Assets/Keypad/Scripts/KeypadButton.cs)
+- [KeypadInteractionFPV](Assets/Keypad/Scripts/KeypadInteractionFPV.cs)
+These three scripts manage the digicode interaction and were adapted from the original asset [Keypad](Assets/Keypad)
+#### Assets: 
+- [Keypad](Assets/Keypad) : The digicode
+- [Sticky_note_blue](Assets/Office%20Supplies%20Low%20Poly/Assets/Prefabs/Sticky_note_blue.prefab/)
+- [Sticky_note_red](Assets/Office%20Supplies%20Low%20Poly/Assets/Prefabs/Sticky_note_red.prefab)
+- [Sticky_note_yellow](Assets/Office%20Supplies%20Low%20Poly/Assets/Prefabs/Sticky_note_yellow.prefab)
+- [Sticky_note_green](Assets/Office%20Supplies%20Low%20Poly/Assets/Prefabs/Sticky_note_green.prefab)
+Four created prefab to represent sticky notes where the code number are present. The texture was created using OpenAI ChatGPT image generation
 ### Climb corridor
+- Same Scripts/Assets as Bots Corridor
 ### Lab room
 #### Assets:
 - [Erlenmeyer](Assets/LaboAsset/prefabs/): Erlenmeyer from [3D Laboratory Environment with Appratus](Assets/LaboAsset/) were modified with Blender to increase the size of the liquid flask to make the wooble effect more realistic: [link](https://assetstore.unity.com/packages/3d/environments/chemistry-lab-items-pack-220212)
@@ -59,7 +79,7 @@ Game project using virtual reality
 ### Tutos room
 #### Scripts: 
 #### Assets:
-- [Office supply](Assets/OfficeSuppliesLowPoly) Fornitures for the classroom 
+- [Office supply](Assets/Office%20Supplies%20Low%20Poly) Fornitures for the classroom 
 
 ### Climb corridor: 
 - Same as Bots Corridor
