@@ -9,7 +9,7 @@ Game project using virtual reality
 ### Tutos room
 - /
 #### Assets:
-- [Sticky_note_blue](Assets/Office Supplies Low Poly/Assets/Prefabs/Sticky_note_blue.prefab/)
+- [Sticky_note_blue](Assets/Office%20Supplies%20Low%20Poly/Assets/Prefabs/Sticky_note_blue.prefab/)
 - [Sticky_note_red](Assets/OfficeSuppliesLowPoly/Assets/Prefabs/Sticky_note_red.prefab)
 - [Sticky_note_yellow](Assets/OfficeSuppliesLowPoly/Assets/Prefabs/Sticky_note_yellow.prefab)
 - [Sticky_note_green](Assets/OfficeSuppliesLowPoly/Assets/Prefabs/Sticky_note_green.prefab)
