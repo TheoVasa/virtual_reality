@@ -45,9 +45,9 @@ In this VR stealth-puzzle game, the player embodies a desperate student on a nig
   
 ### Prof's Desk
 #### Scripts:
-- TODO
+- 
 #### Assets:
-- TODO
+- 
 
 
 ### General
@@ -95,9 +95,9 @@ Four created prefab to represent sticky notes where the code number are present.
 
 ### Prof's Desk
 #### Scripts:
-- TODO
+- 
 #### Assets:
-- TODO
+- 
 
   
 ### General
@@ -150,16 +150,16 @@ Four created prefab to represent sticky notes where the code number are present.
 
 ### Prof's Desk
 #### Scripts:
-- TODO
+- 
 #### Assets:
-- TODO
+- 
 
 
 ### General
 #### Scripts: 
 - XRInteractionToolkit
 #### Assets:
-- [AI Voices](Assets/): TODO
+- [AI Voices](Assets/)
 
 # 3. Custom interactions
 ## 3.1 Non-movement interaction
@@ -179,21 +179,19 @@ The player must follow the instructions displayed on the whiteboards to create a
 
 ### Hand/Controller:
 #### Scripts:
-- TODO
+- 
 #### Assets:
-- TODO
+- 
 
 ### Simon:
 #### Scripts:
-- TODO
+- 
 #### Assets:
-- TODO
+- 
   
 ## 3.2 Movement interaction
 ### Tyrolien
 #### Scripts:
-- TODO
+- 
 #### Assets:
-- TODO
-
-# 4. How to use the code
+- 
