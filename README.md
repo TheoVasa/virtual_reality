@@ -177,13 +177,18 @@ The player must follow the instructions displayed on the whiteboards to create a
 - [Shader VFX](Assets/LaboAsset/Shader): The Liquid shader material was created following an online tutorial and was adapted to the project: [link](https://youtu.be/tI3USKIbnh0)
 - [WaterAnimator and VFX graph](Assets/LaboAsset/prefabs/vfxgraph_AnimateWater.vfx/): The water stream animation was created following an online tutorial and was modified (remove of some 3D models and change of colours) to adapted to the project : [link](https://youtu.be/_H8gBKGKbnU)
 
-### Hand/Controller:
+### Multimodal:
+#### Description:
+The multimodal mode we developed is a cutting-edge feature that allows the Oculus headset to track both the hands and the controllers at the same time. This setup combines the strengths of two interaction systems that are usually separate. Hand tracking alone offers a high level of immersion, allowing users to interact more naturally within the virtual environment. However, it lacks reliable movement controls. On the other hand, using controllers provides precise locomotion but can feel less natural. Our solution merges both: the player uses the left controller for all basic movement functions, while the right hand remains free for natural interactions. It truly brings together the best of both worlds.
+Originally, before we merged the different scenes, the system allowed the user to freely switch between hand and controller use. The player could, for example, set down the left controller—represented in-game as a lamp—and interact using their left hand. When needed, they could pick the lamp back up and resume using the controller. Unfortunately, after merging all the scenes, this feature introduced too many bugs to remain functional. While disappointing, this outcome is somewhat expected, given that such a dual-input system is highly experimental and rarely implemented. It highlights both the challenges and the potential of pushing the boundaries of current VR interaction models. Our multimodal mode is cutting-edge because it lets the user use the left controller and right hand at the same time. Unlike most VR setups that force a choice between controllers or hand tracking, our system combines both, allowing precise movement with the controller and natural interaction with the hand—truly the best of both worlds.
 #### Scripts:
 - 
 #### Assets:
 - 
 
 ### Simon:
+#### Description:
+The 9-digit pad in the game functions like a Simon game, where the system plays a sequence that the player must reproduce exactly. It records each button press and checks if the input matches the expected sequence. To guide the player, several feedback mechanisms are used. First, there is motion feedback, where the finger physically stops when pressing a button, simulating resistance. There is also visual feedback, as each button changes color when activated. In addition, each button has a unique audio feedback with a distinct sound, helping to differentiate the sequence. Finally, haptic feedback adds realism by visually simulating the sensation of pressing a real button, enhancing the immersive experience.
 #### Scripts:
 - 
 #### Assets:
@@ -191,6 +196,8 @@ The player must follow the instructions displayed on the whiteboards to create a
   
 ## 3.2 Movement interaction
 ### Tyrolien
+#### Description:
+The zip line is an object on which we implemented a grab interaction. When the player grabs it, their position is smoothly slid from a defined starting point to an end point. This creates the effect of moving along the zip line, giving the impression of a quick escape.
 #### Scripts:
 - 
 #### Assets:
