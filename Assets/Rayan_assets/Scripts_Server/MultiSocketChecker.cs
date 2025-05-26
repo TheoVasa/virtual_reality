@@ -5,22 +5,17 @@ using UnityEngine.Events;
 public class MultiSocketChecker : MonoBehaviour
 {
     [SerializeField] private UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor[] sockets;
-    [SerializeField] private MonoBehaviour actionScript; // Should implement ISocketAction
+    [SerializeField] private MonoBehaviour actionScript;
 
-    [Header("Events")]
     public UnityEvent onAllSocketsPlugged;
     public UnityEvent onAnySocketUnplugged;
 
     private ISocketAction action;
-    private bool isActive = false; // Current state of the system
+    private bool isActive = false;
 
     private void Awake()
     {
         action = actionScript as ISocketAction;
-        if (action == null)
-        {
-            Debug.LogError("Assigned script does not implement ISocketAction!");
-        }
     }
 
     private void Start()
@@ -47,14 +42,12 @@ public class MultiSocketChecker : MonoBehaviour
             }
         }
 
-        // If all are plugged and was not active → activate
         if (allPlugged && !isActive)
         {
             action.ExecuteAction();
             onAllSocketsPlugged.Invoke();
             isActive = true;
         }
-        // If one is unplugged and was active → deactivate
         else if (!allPlugged && isActive)
         {
             action.UndoAction();

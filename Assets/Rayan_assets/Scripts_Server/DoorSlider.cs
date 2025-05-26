@@ -2,9 +2,8 @@ using UnityEngine;
 
 public class DoorSlider : MonoBehaviour, ISocketAction
 {
-    [Header("Slide Settings")]
-    public Vector3 slideOffset = new Vector3(0, 0, 1f); // Local space offset
-    public float slideSpeed = 2f; // Units per second
+    public Vector3 slideOffset = new Vector3(0, 0, 1f);
+    public float slideSpeed = 2f;
 
     private Vector3 initialPosition;
     private Vector3 targetPosition;
@@ -14,7 +13,7 @@ public class DoorSlider : MonoBehaviour, ISocketAction
     void Start()
     {
         initialPosition = transform.position;
-        targetPosition = initialPosition + transform.TransformDirection(slideOffset); // Local to world
+        targetPosition = initialPosition + transform.TransformDirection(slideOffset);
     }
 
     void Update()
@@ -22,11 +21,8 @@ public class DoorSlider : MonoBehaviour, ISocketAction
         if (isMoving)
         {
             Vector3 desiredPosition = isOpen ? targetPosition : initialPosition;
-
-            // Constant speed in either direction
             transform.position = Vector3.MoveTowards(transform.position, desiredPosition, slideSpeed * Time.deltaTime);
 
-            // Snap into place when close enough
             if (Vector3.Distance(transform.position, desiredPosition) < 0.001f)
             {
                 transform.position = desiredPosition;

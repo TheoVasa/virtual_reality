@@ -4,13 +4,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class SocketInteractionExecutor : MonoBehaviour
 {
-    [Tooltip("Reference to the XR Socket Interactor")]
     public UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor socketInteractor;
-
-    [Tooltip("Action to run when an object is inserted into the socket")]
     public UnityEvent onObjectInserted;
-
-    [Tooltip("Action to run when an object is removed from the socket")]
     public UnityEvent onObjectRemoved;
 
     private void Awake()
@@ -43,11 +38,9 @@ public class SocketInteractionExecutor : MonoBehaviour
     {
         if (args.interactableObject.transform.IsChildOf(socketInteractor.transform))
         {
-            Debug.Log("⚠️ Ignoring self-selection");
             return;
         }
 
-        Debug.Log("✅ Plug inserted: " + args.interactableObject.transform.name);
         onObjectInserted?.Invoke();
     }
 
@@ -55,13 +48,9 @@ public class SocketInteractionExecutor : MonoBehaviour
     {
         if (args.interactableObject.transform.IsChildOf(socketInteractor.transform))
         {
-            Debug.Log("⚠️ Ignoring self-removal");
             return;
         }
 
-        Debug.Log("❌ Plug removed: " + args.interactableObject.transform.name);
         onObjectRemoved?.Invoke();
     }
-
-
 }

@@ -22,10 +22,6 @@ public class SocketInteractionSlider : MonoBehaviour
     private void Awake()
     {
         socketInteractor = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor>();
-
-        if (objectToSlide == null)
-            Debug.LogError("❌ SocketInteractionSlider: objectToSlide is not assigned.", this);
-
         initialPosition = objectToSlide.position;
         downPosition = initialPosition + Vector3.down * slideDistance;
     }
@@ -38,10 +34,6 @@ public class SocketInteractionSlider : MonoBehaviour
         {
             plugInteractable.selectEntered.AddListener(OnPlugGrabbed);
         }
-        else
-        {
-            Debug.LogWarning("⚠️ Plug Interactable not assigned in the Inspector!", this);
-        }
     }
 
     private void OnDisable()
@@ -49,35 +41,30 @@ public class SocketInteractionSlider : MonoBehaviour
         socketInteractor.selectEntered.RemoveListener(OnSocketEnter);
 
         if (plugInteractable != null)
+        {
             plugInteractable.selectEntered.RemoveListener(OnPlugGrabbed);
+        }
     }
 
     private void OnSocketEnter(SelectEnterEventArgs args)
     {
-        Debug.Log("✅ SocketEnter fired for: " + args.interactableObject.transform.name, this);
         StartSlide(downPosition);
     }
 
     private void OnPlugGrabbed(SelectEnterEventArgs args)
     {
-        // Slide up if the grabbing interactor is NOT the socket
         if (args.interactorObject != socketInteractor)
         {
-            Debug.Log("⬆️ Plug grabbed by user! Sliding back up for: " + args.interactableObject.transform.name, this);
             StartSlide(initialPosition);
-        }
-        else
-        {
-            Debug.Log("📎 Plug grabbed by socket — ignoring.", this);
         }
     }
 
     private void StartSlide(Vector3 target)
     {
-        Debug.Log("🔁 StartSlide called. Target = " + target, this);
-
         if (slideCoroutine != null)
+        {
             StopCoroutine(slideCoroutine);
+        }
 
         slideCoroutine = StartCoroutine(SlideTo(target));
     }

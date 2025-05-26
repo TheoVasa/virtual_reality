@@ -36,34 +36,27 @@ public class ActivateWallsOnGrab : MonoBehaviour
     {
         if (!canTrigger) return;
 
-        // Better way: Check if the interactor GameObject has a socket component
         var interactorGO = args.interactorObject.transform?.gameObject;
         if (interactorGO != null && interactorGO.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor>() != null)
         {
-            Debug.Log("Grab ignored: triggered by a socket.");
             return;
         }
 
-        Debug.Log("Grabbed by user – activating walls.");
         foreach (GameObject wall in wallsToControl)
         {
             wall.SetActive(true);
         }
     }
 
-
     private void OnRelease(SelectExitEventArgs args)
     {
-        if (!canTrigger)
-            return;
+        if (!canTrigger) return;
 
         if (args.interactorObject is UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor)
         {
-            Debug.Log("Release ignored: from socket.");
             return;
         }
 
-        Debug.Log("Released by user ? deactivating walls.");
         foreach (GameObject wall in wallsToControl)
         {
             wall.SetActive(false);

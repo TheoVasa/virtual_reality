@@ -30,7 +30,6 @@ public class FreeGrabOverride : MonoBehaviour
     {
         if (!(args.interactorObject is UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor))
         {
-            // Important: do this after selection is confirmed
             grab.attachTransform = null;
             isGrabbed = true;
         }
